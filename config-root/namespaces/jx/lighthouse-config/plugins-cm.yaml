@@ -10,6 +10,10 @@ data:
       repos:
       - adithya180498/angular-io-quickstart
       require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
+      - adithya180498/angular
+      require_self_approval: true
     cat: {}
     cherry_pick_unapproved: {}
     config_updater:
@@ -20,6 +24,11 @@ data:
         env/prow/plugins.yaml:
           name: plugins
     external_plugins:
+      adithya180498/angular:
+      - endpoint: http://cd-indicators.jx.svc.cluster.local/lighthouse/events
+        name: cd-indicators
+      - endpoint: http://lighthouse-webui-plugin.jx.svc.cluster.local/lighthouse/events
+        name: lighthouse-webui-plugin
       adithya180498/angular-io-quickstart:
       - endpoint: http://cd-indicators.jx.svc.cluster.local/lighthouse/events
         name: cd-indicators
@@ -35,6 +44,20 @@ data:
       additional_labels: null
     owners: {}
     plugins:
+      adithya180498/angular:
+      - approve
+      - assign
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - cat
+      - dog
+      - pony
       adithya180498/angular-io-quickstart:
       - approve
       - assign
@@ -78,6 +101,9 @@ data:
       trusted_org: adithya180498
     - repos:
       - adithya180498/angular-io-quickstart
+      trusted_org: adithya180498
+    - repos:
+      - adithya180498/angular
       trusted_org: adithya180498
     welcome:
     - message_template: Welcome

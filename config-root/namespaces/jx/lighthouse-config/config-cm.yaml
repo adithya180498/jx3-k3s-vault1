@@ -7,6 +7,7 @@ data:
       LinkURL: null
     in_repo_config:
       enabled:
+        adithya180498/angular: true
         adithya180498/angular-io-quickstart: true
         adithya180498/jx3-k3s-vault1: true
     plank: {}
@@ -20,6 +21,7 @@ data:
         required-if-present-contexts: null
         skip-unknown-contexts: false
       merge_method:
+        adithya180498/angular: merge
         adithya180498/angular-io-quickstart: merge
         adithya180498/jx3-k3s-vault1: merge
       queries:
@@ -34,6 +36,7 @@ data:
         repos:
         - adithya180498/jx3-k3s-vault1
         - adithya180498/angular-io-quickstart
+        - adithya180498/angular
       - labels:
         - updatebot
         missingLabels:
@@ -45,6 +48,7 @@ data:
         repos:
         - adithya180498/jx3-k3s-vault1
         - adithya180498/angular-io-quickstart
+        - adithya180498/angular
       target_url: http://lighthouse.jx.172.31.42.234.nip.io/merge/status
 kind: ConfigMap
 metadata:
