@@ -8,6 +8,7 @@ spec:
     provider: https://github.com
     providerKind: github
     repositories:
+    - name: angular
     - name: angular-io-quickstart
     scheduler: in-repo
   slack:
