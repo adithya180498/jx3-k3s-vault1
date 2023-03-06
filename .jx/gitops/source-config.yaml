@@ -11,6 +11,7 @@ spec:
     - name: angular
     - name: angular-io-quickstart
     - name: asp
+    - name: bs
     - name: golang-http
     - name: node-http
     scheduler: in-repo
