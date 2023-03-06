@@ -16,6 +16,10 @@ data:
       require_self_approval: true
     - lgtm_acts_as_approve: true
       repos:
+      - adithya180498/asp
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
       - adithya180498/golang-http
       require_self_approval: true
     - lgtm_acts_as_approve: true
@@ -38,6 +42,11 @@ data:
       - endpoint: http://lighthouse-webui-plugin.jx.svc.cluster.local/lighthouse/events
         name: lighthouse-webui-plugin
       adithya180498/angular-io-quickstart:
+      - endpoint: http://cd-indicators.jx.svc.cluster.local/lighthouse/events
+        name: cd-indicators
+      - endpoint: http://lighthouse-webui-plugin.jx.svc.cluster.local/lighthouse/events
+        name: lighthouse-webui-plugin
+      adithya180498/asp:
       - endpoint: http://cd-indicators.jx.svc.cluster.local/lighthouse/events
         name: cd-indicators
       - endpoint: http://lighthouse-webui-plugin.jx.svc.cluster.local/lighthouse/events
@@ -77,6 +86,20 @@ data:
       - dog
       - pony
       adithya180498/angular-io-quickstart:
+      - approve
+      - assign
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - cat
+      - dog
+      - pony
+      adithya180498/asp:
       - approve
       - assign
       - help
@@ -150,6 +173,9 @@ data:
       trusted_org: adithya180498
     - repos:
       - adithya180498/angular
+      trusted_org: adithya180498
+    - repos:
+      - adithya180498/asp
       trusted_org: adithya180498
     - repos:
       - adithya180498/golang-http
