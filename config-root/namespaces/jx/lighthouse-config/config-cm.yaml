@@ -9,6 +9,7 @@ data:
       enabled:
         adithya180498/angular: true
         adithya180498/angular-io-quickstart: true
+        adithya180498/asp: true
         adithya180498/golang-http: true
         adithya180498/jx3-k3s-vault1: true
         adithya180498/node-http: true
@@ -25,6 +26,7 @@ data:
       merge_method:
         adithya180498/angular: merge
         adithya180498/angular-io-quickstart: merge
+        adithya180498/asp: merge
         adithya180498/golang-http: merge
         adithya180498/jx3-k3s-vault1: merge
         adithya180498/node-http: merge
@@ -41,6 +43,7 @@ data:
         - adithya180498/jx3-k3s-vault1
         - adithya180498/angular-io-quickstart
         - adithya180498/angular
+        - adithya180498/asp
         - adithya180498/golang-http
         - adithya180498/node-http
       - labels:
@@ -55,6 +58,7 @@ data:
         - adithya180498/jx3-k3s-vault1
         - adithya180498/angular-io-quickstart
         - adithya180498/angular
+        - adithya180498/asp
         - adithya180498/golang-http
         - adithya180498/node-http
       target_url: http://lighthouse.jx.172.31.42.234.nip.io/merge/status
