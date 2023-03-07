@@ -14,6 +14,7 @@ data:
         adithya180498/golang-http: true
         adithya180498/jx3-k3s-vault1: true
         adithya180498/node-http: true
+        adithya180498/rust-http: true
     plank: {}
     pod_namespace: jx
     prowjob_namespace: jx
@@ -32,6 +33,7 @@ data:
         adithya180498/golang-http: merge
         adithya180498/jx3-k3s-vault1: merge
         adithya180498/node-http: merge
+        adithya180498/rust-http: merge
       queries:
       - labels:
         - approved
@@ -49,6 +51,7 @@ data:
         - adithya180498/bs
         - adithya180498/golang-http
         - adithya180498/node-http
+        - adithya180498/rust-http
       - labels:
         - updatebot
         missingLabels:
@@ -65,6 +68,7 @@ data:
         - adithya180498/bs
         - adithya180498/golang-http
         - adithya180498/node-http
+        - adithya180498/rust-http
       target_url: http://lighthouse.jx.172.31.42.234.nip.io/merge/status
 kind: ConfigMap
 metadata:
