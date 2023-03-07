@@ -1,0 +1,22 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: adithya180498
+    provider: github
+    repository: vertx-rest-prometheus
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+  name: adithya180498-vertx-rest-prometheus
+  namespace: jx
+spec:
+  httpCloneURL: https://github.com/adithya180498/vertx-rest-prometheus.git
+  org: adithya180498
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: vertx-rest-prometheus
+  scheduler:
+    kind: ""
+    name: in-repo
+  url: https://github.com/adithya180498/vertx-rest-prometheus
