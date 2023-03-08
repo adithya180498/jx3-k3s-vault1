@@ -7,6 +7,7 @@ data:
       LinkURL: null
     in_repo_config:
       enabled:
+        adithya180498/-node-http-watch-pipeline-activity: true
         adithya180498/angular: true
         adithya180498/angular-io-quickstart: true
         adithya180498/asp: true
@@ -27,6 +28,7 @@ data:
         required-if-present-contexts: null
         skip-unknown-contexts: false
       merge_method:
+        adithya180498/-node-http-watch-pipeline-activity: merge
         adithya180498/angular: merge
         adithya180498/angular-io-quickstart: merge
         adithya180498/asp: merge
@@ -52,6 +54,7 @@ data:
         - adithya180498/asp
         - adithya180498/bs
         - adithya180498/golang-http
+        - adithya180498/-node-http-watch-pipeline-activity
         - adithya180498/node-http
         - adithya180498/rust-http
         - adithya180498/vertx-rest-prometheus
@@ -70,6 +73,7 @@ data:
         - adithya180498/asp
         - adithya180498/bs
         - adithya180498/golang-http
+        - adithya180498/-node-http-watch-pipeline-activity
         - adithya180498/node-http
         - adithya180498/rust-http
         - adithya180498/vertx-rest-prometheus
