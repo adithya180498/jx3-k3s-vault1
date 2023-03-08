@@ -12,6 +12,7 @@ data:
         adithya180498/angular-io-quickstart: true
         adithya180498/asp: true
         adithya180498/bs: true
+        adithya180498/dlang-http: true
         adithya180498/golang-http: true
         adithya180498/jx3-k3s-vault1: true
         adithya180498/node-http: true
@@ -33,6 +34,7 @@ data:
         adithya180498/angular-io-quickstart: merge
         adithya180498/asp: merge
         adithya180498/bs: merge
+        adithya180498/dlang-http: merge
         adithya180498/golang-http: merge
         adithya180498/jx3-k3s-vault1: merge
         adithya180498/node-http: merge
@@ -53,6 +55,7 @@ data:
         - adithya180498/angular
         - adithya180498/asp
         - adithya180498/bs
+        - adithya180498/dlang-http
         - adithya180498/golang-http
         - adithya180498/-node-http-watch-pipeline-activity
         - adithya180498/node-http
@@ -72,6 +75,7 @@ data:
         - adithya180498/angular
         - adithya180498/asp
         - adithya180498/bs
+        - adithya180498/dlang-http
         - adithya180498/golang-http
         - adithya180498/-node-http-watch-pipeline-activity
         - adithya180498/node-http
