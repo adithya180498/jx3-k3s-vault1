@@ -15,6 +15,7 @@ spec:
     - name: golang-http
     - name: node-http
     - name: rust-http
+    - name: vertx-rest-prometheus
     scheduler: in-repo
   slack:
     channel: '#jenkins-x-pipelines'

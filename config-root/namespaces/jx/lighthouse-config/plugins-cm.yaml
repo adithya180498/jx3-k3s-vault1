@@ -34,6 +34,10 @@ data:
       repos:
       - adithya180498/rust-http
       require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
+      - adithya180498/vertx-rest-prometheus
+      require_self_approval: true
     cat: {}
     cherry_pick_unapproved: {}
     config_updater:
@@ -80,6 +84,11 @@ data:
       - endpoint: http://lighthouse-webui-plugin.jx.svc.cluster.local/lighthouse/events
         name: lighthouse-webui-plugin
       adithya180498/rust-http:
+      - endpoint: http://cd-indicators.jx.svc.cluster.local/lighthouse/events
+        name: cd-indicators
+      - endpoint: http://lighthouse-webui-plugin.jx.svc.cluster.local/lighthouse/events
+        name: lighthouse-webui-plugin
+      adithya180498/vertx-rest-prometheus:
       - endpoint: http://cd-indicators.jx.svc.cluster.local/lighthouse/events
         name: cd-indicators
       - endpoint: http://lighthouse-webui-plugin.jx.svc.cluster.local/lighthouse/events
@@ -202,6 +211,20 @@ data:
       - cat
       - dog
       - pony
+      adithya180498/vertx-rest-prometheus:
+      - approve
+      - assign
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - cat
+      - dog
+      - pony
     requiresig: {}
     sigmention: {}
     size:
@@ -234,6 +257,9 @@ data:
       trusted_org: adithya180498
     - repos:
       - adithya180498/rust-http
+      trusted_org: adithya180498
+    - repos:
+      - adithya180498/vertx-rest-prometheus
       trusted_org: adithya180498
     welcome:
     - message_template: Welcome
