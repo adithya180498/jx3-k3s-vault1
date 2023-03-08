@@ -8,6 +8,7 @@ spec:
     provider: https://github.com
     providerKind: github
     repositories:
+    - name: -node-http-watch-pipeline-activity
     - name: angular
     - name: angular-io-quickstart
     - name: asp
