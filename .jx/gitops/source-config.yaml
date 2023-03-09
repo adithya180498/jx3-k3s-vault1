@@ -16,6 +16,7 @@ spec:
     - name: dlang-http
     - name: golang-http
     - name: node-http
+    - name: node-postgresql
     - name: rust-http
     - name: vertx-rest-prometheus
     scheduler: in-repo
