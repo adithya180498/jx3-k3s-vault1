@@ -40,6 +40,10 @@ data:
       require_self_approval: true
     - lgtm_acts_as_approve: true
       repos:
+      - adithya180498/node-postgresql
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
       - adithya180498/rust-http
       require_self_approval: true
     - lgtm_acts_as_approve: true
@@ -97,6 +101,11 @@ data:
       - endpoint: http://lighthouse-webui-plugin.jx.svc.cluster.local/lighthouse/events
         name: lighthouse-webui-plugin
       adithya180498/node-http:
+      - endpoint: http://cd-indicators.jx.svc.cluster.local/lighthouse/events
+        name: cd-indicators
+      - endpoint: http://lighthouse-webui-plugin.jx.svc.cluster.local/lighthouse/events
+        name: lighthouse-webui-plugin
+      adithya180498/node-postgresql:
       - endpoint: http://cd-indicators.jx.svc.cluster.local/lighthouse/events
         name: cd-indicators
       - endpoint: http://lighthouse-webui-plugin.jx.svc.cluster.local/lighthouse/events
@@ -243,6 +252,20 @@ data:
       - cat
       - dog
       - pony
+      adithya180498/node-postgresql:
+      - approve
+      - assign
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - cat
+      - dog
+      - pony
       adithya180498/rust-http:
       - approve
       - assign
@@ -306,6 +329,9 @@ data:
       trusted_org: adithya180498
     - repos:
       - adithya180498/node-http
+      trusted_org: adithya180498
+    - repos:
+      - adithya180498/node-postgresql
       trusted_org: adithya180498
     - repos:
       - adithya180498/rust-http

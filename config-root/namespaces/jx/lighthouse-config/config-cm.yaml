@@ -16,6 +16,7 @@ data:
         adithya180498/golang-http: true
         adithya180498/jx3-k3s-vault1: true
         adithya180498/node-http: true
+        adithya180498/node-postgresql: true
         adithya180498/rust-http: true
         adithya180498/vertx-rest-prometheus: true
     plank: {}
@@ -38,6 +39,7 @@ data:
         adithya180498/golang-http: merge
         adithya180498/jx3-k3s-vault1: merge
         adithya180498/node-http: merge
+        adithya180498/node-postgresql: merge
         adithya180498/rust-http: merge
         adithya180498/vertx-rest-prometheus: merge
       queries:
@@ -59,6 +61,7 @@ data:
         - adithya180498/golang-http
         - adithya180498/-node-http-watch-pipeline-activity
         - adithya180498/node-http
+        - adithya180498/node-postgresql
         - adithya180498/rust-http
         - adithya180498/vertx-rest-prometheus
       - labels:
@@ -79,6 +82,7 @@ data:
         - adithya180498/golang-http
         - adithya180498/-node-http-watch-pipeline-activity
         - adithya180498/node-http
+        - adithya180498/node-postgresql
         - adithya180498/rust-http
         - adithya180498/vertx-rest-prometheus
       target_url: http://lighthouse.jx.172.31.42.234.nip.io/merge/status
