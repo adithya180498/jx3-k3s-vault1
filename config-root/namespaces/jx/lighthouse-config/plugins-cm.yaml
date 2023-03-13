@@ -24,6 +24,10 @@ data:
       require_self_approval: true
     - lgtm_acts_as_approve: true
       repos:
+      - adithya180498/dlang
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
       - adithya180498/golang-http
       require_self_approval: true
     - lgtm_acts_as_approve: true
@@ -64,6 +68,11 @@ data:
       - endpoint: http://lighthouse-webui-plugin.jx.svc.cluster.local/lighthouse/events
         name: lighthouse-webui-plugin
       adithya180498/bs:
+      - endpoint: http://cd-indicators.jx.svc.cluster.local/lighthouse/events
+        name: cd-indicators
+      - endpoint: http://lighthouse-webui-plugin.jx.svc.cluster.local/lighthouse/events
+        name: lighthouse-webui-plugin
+      adithya180498/dlang:
       - endpoint: http://cd-indicators.jx.svc.cluster.local/lighthouse/events
         name: cd-indicators
       - endpoint: http://lighthouse-webui-plugin.jx.svc.cluster.local/lighthouse/events
@@ -141,6 +150,20 @@ data:
       - dog
       - pony
       adithya180498/bs:
+      - approve
+      - assign
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - cat
+      - dog
+      - pony
+      adithya180498/dlang:
       - approve
       - assign
       - help
@@ -248,6 +271,9 @@ data:
       trusted_org: adithya180498
     - repos:
       - adithya180498/bs
+      trusted_org: adithya180498
+    - repos:
+      - adithya180498/dlang
       trusted_org: adithya180498
     - repos:
       - adithya180498/golang-http
